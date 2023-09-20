@@ -7,9 +7,10 @@
 import pprint
 import numpy as np
 import matplotlib.pyplot as plt
-import yfinance as yf
 from pathlib import Path
+import pandas as pd
 
+#code to create charts folder if there is not one already
 try:
     Path("charts").mkdir()
 except FileExistsError:
