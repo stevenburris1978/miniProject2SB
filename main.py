@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 import pandas as pd
 
-#code to create charts folder if there is not one already
+# code to create charts folder if there is not one already
 try:
     Path("charts").mkdir()
 except FileExistsError:
