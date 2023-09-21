@@ -7,7 +7,7 @@
  ### put it here
 
 ## *Dataset Install Instructions*
- To get the software professional salaries dataset got to url : [Kaggle salary data set: ](https://www.kaggle.com/datasets/whenamancodes/software-professional-salary-dataset?resource=download)
+ To get the software professional salaries dataset got to url : [Kaggle salary data set: ](https://www.kaggle.com/datasets/thedevastator/u-s-software-developer-salaries)
 
 ## *PIP Install Instructions*
 Please copy the following command in the terminal for all the packages needed to run the program:
