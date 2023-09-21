@@ -4,7 +4,9 @@
  ### 09-20-2023
 
 # *Description*
- ### put it here
+### This app will ask the question: Which cities can a software developer make more than $100,000 per year in?
+### This app will then plot all the salaries over $100,000
+### This app will use a Kaggle.com dataset
 
 ## *Dataset Install Instructions*
  To get the software professional salaries dataset got to url : [Kaggle salary data set: ](https://www.kaggle.com/datasets/thedevastator/u-s-software-developer-salaries)
