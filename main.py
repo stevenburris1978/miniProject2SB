@@ -41,7 +41,7 @@ highPrice = salaries[-1]
 plt.axis([0, 45, lowPrice-1000, highPrice+1000])
 
 plt.title('Best Software Developer Salaries')
-plt.xlabel('Number of Cities With Salaries over 100,000')
+plt.xlabel('Number of US Cities With Salaries over 100,000')
 plt.ylabel('Salaries over 100,000')
 
 # code to create charts folder if there is not one already
