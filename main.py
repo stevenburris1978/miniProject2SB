@@ -27,6 +27,7 @@ pprint.pprint(bestSalaries)
 salary = list(range(1, len(bestSalaries) + 1))
 
 # This plots the graph
+fig = plt.figure(facecolor='aqua')
 plt.plot(salary, bestSalaries, 'red')
 plt.plot(salary, bestSalaries, 'o')
 
@@ -43,6 +44,7 @@ plt.axis([0, 45, lowPrice-1000, highPrice+1000])
 plt.title('Best Software Developer Salaries')
 plt.xlabel('Number of US Cities With Salaries over 100,000')
 plt.ylabel('Salaries over 100,000')
+plt.subplots_adjust(left=0.2)
 
 # code to create charts folder if there is not one already
 try:
