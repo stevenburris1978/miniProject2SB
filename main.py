@@ -13,15 +13,15 @@ import pandas as pd
 # get pandas data frame of Software developer Salaries in US Cities
 data = pd.read_csv('SofwareDeveloperIncomeExpensesperUSACity.csv', index_col='Metro')
 
-print (data['Mean Software Developer Salary (adjusted)'])
+pprint.pprint(data['Mean Software Developer Salary (adjusted)'])
 
 # get salaries
 goodSalaries = np.array(data['Mean Software Developer Salary (adjusted)'])
-print(goodSalaries)
+pprint.pprint(goodSalaries)
 
 # get salaries over $100,000
 bestSalaries = [i for i in goodSalaries if i > 100000]
-print(bestSalaries)
+pprint.pprint(bestSalaries)
 
 # List salaries
 salary = list(range(1, len(bestSalaries) + 1))
